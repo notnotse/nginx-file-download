@@ -1,12 +1,12 @@
 [
   {
     "name": "project1",
-    "url": "http://localhost:3000/examples/",
+    "url": "http://localhost:3000/examples/project1/",
     "jsonFile": "project1.json"
   },
   {
     "name": "project2",
-    "url": "http://localhost:3000/examples/",
+    "url": "http://localhost:3000/examples/project2/",
     "jsonFile": "project2.json"
   }
 ]

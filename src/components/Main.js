@@ -108,7 +108,7 @@ class Main extends Component {
 
   goToUrl(name, appName) {
     this.state.config.find(a => {
-      return this.state.sortBy === appName ? null : window.open(a.url + name);
+      return a.name === appName ? window.open(a.url + name) : null;
     });
   }
 
